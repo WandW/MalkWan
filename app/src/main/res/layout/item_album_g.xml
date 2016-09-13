@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp"
+    android:padding="@dimen/activity_default_padding"
+    >
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+       <com.facebook.drawee.view.SimpleDraweeView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/colorPrimaryDark"
+           android:id="@+id/icon"
+           />
+
+    </RelativeLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</android.support.v7.widget.CardView>
